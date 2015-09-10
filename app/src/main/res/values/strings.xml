@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ShuttleSMS! :) </string>
+    <string name="app_name">Shuttle SMS</string>
+
+<string name="log">Log</string>
+<string name="help">Help</string>
+<string name="credit_list">Credit List</string>
+<string name="enable_shuttle">Enable Shuttle SMS</string>
+<string name="shuttle_banner">Shuttle SMS</string>
+<string name="no_credit">Credit is empyt</string>
+<string name="title">title</string>
+<string name="body">body</string>
+<string name="confirm">confirm</string>
+<string name="add">Add</string>
+<string name="select_credit_type">select_credit_type</string>
+</resources>

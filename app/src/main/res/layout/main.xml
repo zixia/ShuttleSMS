@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView android:id="@+id/shuttle_banner" android:text="@string/shuttle_banner" 
+        android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+
+	<ToggleButton android:id="@+id/shuttle_button"
+		android:layout_height="wrap_content" android:layout_width="wrap_content" />
+    <TextView android:id="@+id/enable_shuttle" android:text="@string/enable_shuttle" 
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:textStyle="normal"/>
+        
+	<CheckBox android:id="@+id/credit_button"
+		android:paddingTop="24sp" 
+		android:paddingBottom="24sp" 
+		android:layout_height="wrap_content"   
+		android:layout_width="wrap_content" />
+    <TextView android:id="@+id/credit_list"
+        android:text="@string/credit_list"     
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textStyle="normal"/>
+        
+    <TextView android:id="@+id/log"
+        android:text="@string/log"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textStyle="normal"/>
+        
+    <TextView android:id="@+id/help"
+        android:text="@string/help"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textStyle="normal"/>
+</LinearLayout>
+</ScrollView>
