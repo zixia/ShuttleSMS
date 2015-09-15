@@ -1,5 +1,6 @@
 # ShuttleSMS(短信门神)
 My first android java app development on  Dec 2011
+Project homepage - https://github.com/zixia/ShuttleSMS
 
 ## 设计理念
 1. 当一个不在手机通讯录中的号码发来短信，系统先hold住此短信；
